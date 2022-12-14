@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+  <title> Spacey Latte Cafe </title>
+  <link rel="stylesheet" href="https://use.typekit.net/lvr7zqg.css">
+  <!--insert title image here? -->
+  <link rel= "stylesheet" href= "./style.css">
+<!-- SHORTEN NUMBER OF PAGES USING THE JS PASSWORD SYSTEM? -->
+ <script type="text/javascript">
+  function enter() {
+    var password = "croissant";
+    var x = prompt("One hot chocolate coming right up! Oh! Which snack would you like? \n We have two options \n a croissant or macarons");
+    if (x.toLowerCase() == password) {
+     alert("Lovely! One Croissant coming up!");
+     window.location = "hotchocolatecroissant.html";
+    }
+    else {
+       alert("Macarons it is then!");
+     window.location = "hotchocolatemacarons.html";
+    }
+  }
+</script>
+
+
+<script type="text/javascript">
+ function enter2() {
+   var password = "croissant";
+   var x = prompt("One latte coming right up! Oh! And which snack would you like? \n We have two options: \n a croissant or macarons");
+   if (x.toLowerCase() == password) {
+    alert("Lovely! One Croissant coming up!");
+    window.location = "lattecroissant.html";
+   }
+   else {
+      alert("Macarons it is then!");
+    window.location = "lattemacarons.html";
+   }
+ }
+</script>
+
+<script type="text/javascript">
+ function enter3() {
+   var password = "croissant";
+   var x = prompt("One matcha latte coming right up! Oh! And which snack would you like? \n We have two options: \n a croissant or macarons");
+   if (x.toLowerCase() == password) {
+    alert("Lovely! One Croissant coming up!");
+    window.location = "matchacroissant.html";
+   }
+   else {
+      alert("Macarons it is then!");
+    window.location = "matchamacarons.html";
+   }
+ }
+</script>
+
+
+  </head>
+  <body>
+
+    <div class= "logo">
+    <a href= "./index.html"><img src= "./assets/spaceylattecafe_logo.png"  width="100"> </img>
+    <img src="./assets/spaceylattecafe_logospill.png" class="hover_logo" width="105"></img></a>
+    </div>
+
+    <nav>
+      <div class= "navbar">
+           <a href="./index.html">Home</a>
+           <a href= "./about.html">About</a>
+           <a href= "./shop.html">Shop</a>
+      </div>
+      </nav>
+
+
+      <br>
+    <h1> Spacey Latte Cafe Menu </h1>
+
+    <br>
+
+
+<h2> Please Select Your Drink Option </h2>
+<br>
+
+
+
+
+
+<div class= "menu">
+  <h5> Latte </h5>
+<p1> A classic shot of espresso, with milk and a sweet syrup (vanilla, hazeulnut- whatever you want!)</p1><br><br>
+<div class="menuitem">
+  <img src="./assets/latte_icon.png" width="150" onClick="enter2()">
+</div>
+<br>
+<br>
+<br>
+<br>
+<h5> Matcha Latte </h5>
+<p1> A beloved twist on the latte, using the Japanese Matcha Tea powder, to make a lower in caffeine, sweet, and
+   calming warm drink </p1><br><br>
+   <div class="menuitem">
+  <img src="./assets/matcha_icon.png"width="150" onClick="enter3()">
+</div>
+  <br>
+  <br>
+<br>
+<br>
+<h5> Hot Chocolate </h5>
+  <p1> A classic childhood (and adulthood) favorite. Perfect for non caffeine drinkers.
+    Dont worry we'll toss in the iconic latte art too!</p1><br><br>
+    <div class="menuitem">
+  <img src="./assets/hotchocolate_icon.png" width="150" onClick="enter()">
+</div>
+  <br>
+  <br>
+<br>
+<br>
+</div>
+
+
+
+
+
+
+ <br> <br>
+   <div align= "right">
+<audio style= "border:10px solid #65824E;
+            border-radius: 50px;"controls autoplay>
+<source src="./assets/Sleepy Cafe.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+<br>
+<footer>
+
+  <h3> Spacey Latte &copy; </h3>
+  <p> Socials: <br>
+  <a href="https://www.linkedin.com/in/alexandra-hisen-15413174/">LinkedIn</a> <br>
+  <a href= "https://www.instagram.com/spacey_dust">Instagram</a> <br>
+  <a href="mailto:alexandra.hisen@sjsu.edu"> You can find me in a cafe or your inbox :)</a> <br> </p>
+</footer>
+    </body>
+</html>
